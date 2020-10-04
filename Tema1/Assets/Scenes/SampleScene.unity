@@ -217,18 +217,23 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2058646607}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &912637361
-MonoBehaviour:
+--- !u!111 &912637362
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912637358}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c897ac6c4e7414974ac78728b3e7de50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 24bdb3826782777408de0e137402e9b3, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: ee1f739f60e7e644585da179e9ec98fc, type: 3}
+  - {fileID: 7400000, guid: 24bdb3826782777408de0e137402e9b3, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1622552492
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,9 +327,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1622552492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ad636c2d718d425c83b228137228680, type: 3}
+  m_Script: {fileID: 11500000, guid: b569eb24d171644f588460fe2f3a9881, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distance: 0
+  Cactus: {fileID: 0}
 --- !u!1001 &2058646607
 PrefabInstance:
   m_ObjectHideFlags: 0
