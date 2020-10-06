@@ -18,7 +18,7 @@ public class AnimationCactus : MonoBehaviour
     void Update()
     {
         distance = Vector3.Distance(this.transform.position, Cactus.transform.position);
-        if(distance < 5)
+        if(distance < 1.6)
         {
             CactusAnimation.wrapMode = WrapMode.Loop;
             CactusAnimation.Play("Attack");

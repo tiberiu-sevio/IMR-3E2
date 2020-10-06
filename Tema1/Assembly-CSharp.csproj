@@ -64,6 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AnimationCactus.cs" />
+    <Compile Include="Assets\CactusActions.cs" />
+    <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\Test.xml" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/stingaciutiberiu/Documents/FACULTATE/imr/Tema1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
